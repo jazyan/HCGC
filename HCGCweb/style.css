@@ -1,0 +1,85 @@
+body
+  { 
+     font-family: sans-serif;
+     background-image: url("images/goboard3.jpeg");
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+
+div
+  {
+     margin: 50px 50px 50px 50px;
+     background: rgba(255,255,255,0.7);
+     color: white;
+     overflow: hidden;
+  }
+
+div h1
+ { 
+    margin: 25px 25px 25px 25px;
+    font-weight: bold;
+    color: black;
+ }
+
+div p
+ { 
+    margin: 20px 25px 10px 25px;
+    font-weight: bold;
+    color: black;
+ }
+
+div table
+  {
+    margin: 20px 25px 10px 25px;
+    width: 100%;
+    font-weight: bold;
+    color: black;
+  }
+
+div td 
+  {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+ul.menu
+  {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+  }
+
+ul
+  {
+    color: black;
+    font-weight: bold;
+  }
+
+li.menu
+  {
+     float:left;
+  }
+
+a.menu:link,a.menu:visited
+  {
+     display: block;
+     width: 170px;
+     font-weight: bold;
+     color: #FFFFFF;
+     background-color: black;
+     text-align: center;
+     padding: 6px;
+     text-decoration: none;
+     text-transform: uppercase;
+  }
+
+a.menu:hover,a.menu:active
+  {
+     color: black;
+     background-color: white;
+  }
+
+div.banner { position: relative; overflow: auto; }
+    div.banner li { list-style: none; }
+            div.banner ul li { float: left; }
